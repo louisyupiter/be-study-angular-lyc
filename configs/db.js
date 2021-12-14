@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
  const mongooseConnect = () => {
   // connect db mongoose
-//   const dburl = `mongodb+srv://belajarangular:belajarangular@cluster0.ful4b.mongodb.net/belajar1?retryWrites=true&w=majority`
-  const dburl = `mongodb://localhost/belajarangular`;
+  const dburl = `mongodb+srv://test:testtest@dblouis.svmsb.mongodb.net/belajarangular?retryWrites=true&w=majority`
+
+  // const dburl = `mongodb://localhost/belajarangular`; // process.env.DBURI
   const connectionOptions = {
     useCreateIndex: true,
     useNewUrlParser: true,
